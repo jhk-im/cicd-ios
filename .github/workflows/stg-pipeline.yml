@@ -21,7 +21,6 @@ jobs:
 
       - name: Archive app
         run: |
-          pod install
           xcodebuild clean archive -project $XC_PROJECT
       
       # - name: Upload app to TestFlight
