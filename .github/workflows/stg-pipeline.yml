@@ -10,7 +10,7 @@ jobs:
     runs-on: macos-latest
 
     env:
-      XC_PROJECT: ${{ 'cicd-ios.xcodeproj' }}
+      XC_PROJECT: ${{ 'cicd-ios/cicd-ios.xcodeproj' }}
 
     steps:
       - name: Select latest Xcode
